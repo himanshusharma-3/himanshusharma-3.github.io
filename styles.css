@@ -794,6 +794,22 @@ section {
     font-size: 0.9rem;
 }
 
+.footer-social {
+    margin: 1rem 0;
+}
+
+.footer-link {
+    color: var(--cyan-glow);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.footer-link:hover {
+    color: var(--purple-glow);
+    text-decoration: underline;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-menu {
